@@ -1,0 +1,97 @@
+.page{
+    width: 480px;
+    height: 700px;
+    font-family: 'Source sans Pro', Calibri, Tachoma, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin: auto;
+  
+    background: rgb(237, 229, 237);
+}
+
+.section{
+   
+    text-align: justify;
+    height: 160px;
+    margin-right:auto;
+   
+}
+
+.sec-gauche{
+    float: left ;
+    width: 150px;
+    height: 700px;
+    background: rgb(67, 66, 67);
+    color: aliceblue;
+   
+}
+ h3{
+    background: white;
+    color: black;
+    border-radius: 0 10px 10px 0;
+    padding-left: -50px;
+    margin-left: -15px;
+    margin-right: 40px;
+    text-align: center;
+    height: 18px;
+    width: 120px;
+
+}
+
+.section .sec-gauche img{
+    width: 100px; 
+    height: 140px;
+    margin-left: 15px;
+}
+.section .sec-gauche .info .tel{
+    margin-left: 18px;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.section .sec-gauche .info .comp{
+    margin-left: 15px;
+}
+
+.section .sec-gauche .info .info_comp{
+    margin-left: -12px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.section .sec-gauche .info .lang{
+    margin-left: 15px;
+}
+
+.section .sec-gauche .info .info_lang{
+    margin-left: -12px;
+    text-align: left;
+    line-height: 22px;
+}
+.section .sec-gauche .info .lois{
+    margin-left: 15px;
+}
+
+.section .sec-gauche .info .info_lois{
+    margin-left: -12px;
+    text-align: left;
+    line-height: 22px;
+}
+.sec-droite{
+    height: 0px;
+    margin-left: 100px;
+}
+.section .sec-droite{
+    margin-left: 160px;
+}
+
+h2{
+    background: rgb(67, 66, 67);
+    color: white;
+    border-radius: 0 10px 10px 0;
+    margin-left: -20px;
+    margin-right: 40px;
+    text-align:left;
+    padding-left: 40px;
+    height: 22px;
+}

@@ -1,0 +1,107 @@
+.page{
+    width: 490px;
+    height: 680px;
+    font-family: 'Source sans Pro', Calibri, Tachoma, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin: auto;
+   background: rgb(237, 229, 237);
+}
+.section{
+    text-align: justify;
+    height: 160px;
+    margin-right:auto;
+   
+}
+.haut{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #94a6b2;
+    max-height: 90%;
+    max-height: 100%;
+    text-align:start;
+}
+
+h1{
+    font-size: 20px;
+}
+.section .haut img{
+        position: relative;
+        overflow: hidden;
+        width: 120px; 
+        height: 120px;
+        margin-left: 10px;
+        border-radius: 50%;
+        padding: 0px;
+        margin: 20px;
+        border: 3px solid white;
+    }
+    
+.pre{
+    width: -170px; 
+    height: 100px;
+    margin-left: 0px;
+    margin-top: -18px;
+    text-align: justify;
+    font-size: 9px;
+    padding-top: 10px;
+} 
+   
+.sec-gauche{
+    float: left ;
+    width: 150px;
+    height: 520px;
+    background: rgb(67, 66, 67);
+    color: aliceblue;
+   
+}
+
+.section .sec-gauche .info .tel{
+    margin-left: 20px;
+    text-align: justify;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.section .sec-gauche .info .comp{
+    margin-left: 15px;
+    padding-top: 0px;
+}
+
+.section .sec-gauche .info .info_comp{
+    margin-left: -0px;
+    text-align: left;
+    line-height: 15px;
+}
+
+.section .sec-gauche .info .lang{
+    margin-left: 15px;
+}
+
+.section .sec-gauche .info .info_lang{
+    margin-left: -0px;
+    text-align: left;
+}
+.section .sec-gauche .info .lois{
+    margin-left: 15px;
+}
+
+.section .sec-gauche .info .info_lois{
+    margin-left: -12px;
+    text-align: left;
+}
+.sec-droite{
+    height: 0px;
+    margin-left: 100px;
+}
+.section .sec-droite{
+    margin-left: 180px;
+}
+h6{
+    margin-left: 20px;
+    font-size: 12px;
+    padding-top: -90px;
+}
+
+
